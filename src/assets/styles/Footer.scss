@@ -1,0 +1,20 @@
+.wrapperFooter{
+    height:4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    border-top: 1px solid #DADADA;
+    font-size: 14px;
+    // padding: 20px;
+    .wrapper__left{
+        padding: 20px;
+    }
+    .wrapper__right{
+        padding: 20px;
+        a{
+            border-right: 1px solid #DADADA;
+            padding: 0 20px ; 
+        }
+    }
+}
